@@ -26,9 +26,9 @@ locals {
   # jetbrains product codes https://plugins.jetbrains.com/docs/marketplace/product-codes.html
   ide_product_code = "IU"
   # jetbrains builds https://www.jetbrains.com/idea/download/other.html   
-  ide_build_number = "232.10203.10"   
+  ide_build_number = "233.13135.103"   
   # IDE release downloads https://data.services.jetbrains.com/products/releases?code=IU
-  ide = "ideaIU-2023.2.5"
+  ide = "ideaIU-2023.3.2"
   ide_download_link = "https://download.jetbrains.com/idea/${local.ide}.tar.gz"  
 } 
 
